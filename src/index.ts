@@ -2,7 +2,7 @@
 /* HELPERS */
 
 const escape = ( str: string ): string => {
-  return str.replace ( /[\\`]/g, char => `\\${char}` );
+  return str.replace ( /\\/g, '\\\\' ).replace ( /`/g, '\\`' ).replace ( /\r/g, '\\r' ).replace ( /\${/g, '\\${' );
 };
 
 /* MAIN */
