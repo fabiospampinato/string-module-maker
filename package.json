@@ -1,7 +1,7 @@
 {
   "name": "string-module-maker",
   "description": "Generate a module exporting an arbitrary string.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
